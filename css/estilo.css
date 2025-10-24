@@ -8,6 +8,7 @@ Aprenda mais sobre:
 - Pseudo-classes: https://www.w3schools.com/css/css_pseudo_classes.asp
 - Variáveis CSS: https://www.w3schools.com/css/css3_variables.asp
 */
+/* :root serve para definirmos cores padrão! Esta prática é recomendada, pois assim temos um melhor gerenciamento de design */
 :root{
     --cor-do-texto: #2f2f2f;
     --cor-primaria: #ececec;

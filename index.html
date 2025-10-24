@@ -9,10 +9,14 @@
     <!-- Importação do CSS local, que está dentro da pasta "css" -->
     <link rel="stylesheet" href="css/estilo.css">
 
-    <!-- Importação de Javascript -->
     <!-- Importação do conjunto de Ícones do Font Awesome -->
     <script src="https://kit.fontawesome.com/6c2e9979a8.js"></script>
     
+    <!-- Importação de Javascript -->
+    <!-- com 'defer' o js é carregado somente depois do html e css estarem em execução (importante porque js fará uso dos demais elementos) -->
+    <script src="js/posts.js" defer></script>
+
+    <!-- Obs.: Importações como a do CSS e do javascript devem vir por último, pois deve prevalecer -->
     <title>Pooryter X</title>
 </head>
 <body>
@@ -46,7 +50,7 @@
             <input type="button" value="Postar" id="btnPostar">
         </form>
     </main>
-    <section><!-- Sessão de postagens-->
+    <section id="postagens"><!-- Sessão de postagens-->
         <h2>Postagens</h2>
         <article><!-- Cada postagem será um <article>, esse é um exemplo -->
             <h3>Data e Hora</h3>
